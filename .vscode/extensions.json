@@ -1,0 +1,13 @@
+{
+  "recommendations": [
+    "aaron-bond.better-comments", // Comment highlighter
+    "dbaeumer.vscode-eslint", // JSlinter
+    "dsznajder.es7-react-js-snippets", // React code snippet
+    "editorConfig.editorConfig", // EditorConfig
+    "esbenp.prettier-vscode", // Formatter
+    "gruntfuggly.todo-tree", // 重要コメントの一覧化
+    "nidu.copy-json-path", // Jsonのパス取得
+    "seatonjiang.gitmoji-vscode", // コミットメッセージ用の絵文字拡張
+    "streetsidesoftware.code-spell-checker" // タイポ防止
+  ]
+}

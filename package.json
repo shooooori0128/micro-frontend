@@ -1,0 +1,17 @@
+{
+  "name": "micro-frontend",
+  "private": true,
+  "version": "1.0.0",
+  "repository": "https://github.com/shooooori0128/micro-frontend.git",
+  "author": "shooooori0128",
+  "license": "MIT",
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "dev:a": "yarn workspace @micro-frontend/frontend-a dev",
+    "dev:b": "yarn workspace @micro-frontend/frontend-b dev",
+    "": "// TODO: ---------- ↓並列だとログが見づらいので別方法で同時実行を考えた方がいいかも ----------",
+    "dev": "yarn dev:a & yarn dev:b"
+  }
+}
